@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/mEdtName"
+        android:layout_width="266dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mEdtEmail"
+        android:layout_width="268dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/mEdtName"
+        app:layout_constraintTop_toBottomOf="@+id/mEdtName" />
+
+    <EditText
+        android:id="@+id/mEdtId"
+        android:layout_width="275dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="57dp"
+        android:ems="10"
+        android:hint="Enter ID Number"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mEdtEmail" />
+
+    <Button
+        android:id="@+id/mBtnSave"
+        android:layout_width="125dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="48dp"
+        android:text="SAVE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <Button
+        android:id="@+id/mBtnView"
+        android:layout_width="134dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="64dp"
+        android:text="View"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

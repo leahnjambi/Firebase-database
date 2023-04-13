@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "620197998955",
+    "project_id": "my-first-firebase-app-f17de",
+    "storage_bucket": "my-first-firebase-app-f17de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620197998955:android:ab951b22d479f36cfa1c2e",
+        "android_client_info": {
+          "package_name": "com.leahnjambi.morningfirebasedbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620197998955-lthtt7r5emdvgrnnspusic1ljp20b8lr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyZv6QWe9PMstmziR8HcJMmoSoDgdKxso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620197998955-lthtt7r5emdvgrnnspusic1ljp20b8lr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620197998955:android:e46cfba65c03f0ccfa1c2e",
+        "android_client_info": {
+          "package_name": "com.leahnjambi.morningfirebasedbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620197998955-lthtt7r5emdvgrnnspusic1ljp20b8lr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyZv6QWe9PMstmziR8HcJMmoSoDgdKxso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620197998955-lthtt7r5emdvgrnnspusic1ljp20b8lr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
