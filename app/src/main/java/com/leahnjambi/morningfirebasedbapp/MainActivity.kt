@@ -1,6 +1,7 @@
 package com.leahnjambi.morningfirebasedbapp
 
 import android.app.ProgressDialog
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -70,6 +71,8 @@ class MainActivity : AppCompatActivity() {
 
         }
         btnView.setOnClickListener {
+            var tembea = Intent(this,UsersActivity::class.java)
+            startActivity(tembea)
 
         }
 
